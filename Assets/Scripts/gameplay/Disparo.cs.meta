@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 2d401304615503c499bed3050b87a28e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - puntaPistola: {instanceID: 0}
+  - balaDefault: {instanceID: 0}
+  - balaSnipper: {instanceID: 0}
+  - balaCannon: {instanceID: 0}
+  - normal: {fileID: 8300000, guid: af2edcf9ab6bb3d4f9c24d6872385baf, type: 3}
+  - snipper: {fileID: 8300000, guid: f31e29befe21a07449d9af2e85bee0f2, type: 3}
+  - cannon: {fileID: 8300000, guid: 4cd2a318ec6b66148a1ae8d4345a98ab, type: 3}
+  - audioSource: {instanceID: 0}
+  - manager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
