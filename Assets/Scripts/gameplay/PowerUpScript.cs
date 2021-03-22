@@ -53,5 +53,11 @@ public class PowerUpScript : MonoBehaviour
         {
             StartCoroutine(PowerUpDelete(col,2));
         }
+        else if (gameObject.tag == "CibrucPu")
+        {
+            TowerScript.puntos += 500;
+            Destroy(gameObject);
+            Destroy(col.gameObject);
+        }
     }
 }

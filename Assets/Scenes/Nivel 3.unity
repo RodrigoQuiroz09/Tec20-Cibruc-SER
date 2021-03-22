@@ -484,6 +484,7 @@ MonoBehaviour:
   pu1: {fileID: 3436593882271120406, guid: 51943d6c2cd95ba45937be0bd9a80718, type: 3}
   pu2: {fileID: 5227073320980561216, guid: 9cc87f13f4b79df40a603ddf00d05aff, type: 3}
   pu3: {fileID: 6934874053676992976, guid: 27fa37f52f9859f42952679ff951405f, type: 3}
+  pu4: {fileID: 5227073320980561216, guid: 35af15084db26fe459440a74c8a0df73, type: 3}
   spawnPos: {fileID: 126404556}
   rangeFrom: 8
   rangeTo: 10
@@ -3009,6 +3010,84 @@ PrefabInstance:
       propertyPath: sounds.Array.data[4]
       value: 
       objectReference: {fileID: 8300000, guid: 1a8010d556f31fc44841f9ad03ce53c3, type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[0]
+      value: 
+      objectReference: {fileID: 2721666241838623980, guid: 888c8585d8ee3044c84c5c02766dd932,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[1]
+      value: 
+      objectReference: {fileID: 7135606720773019952, guid: 3aaba7067e9b0b144bdfbade8b8f1e01,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1199716088063183571, guid: b41ea8d28baaac34abc8ada83ef9680c,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[3]
+      value: 
+      objectReference: {fileID: 3826986584042464530, guid: 56f04a501a49c4148ad2c706c901bb7a,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[4]
+      value: 
+      objectReference: {fileID: 7686165182062298541, guid: 301744d587eba9146bd696ed28e1571c,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1796237231204434314, guid: a2bb46941166ac34e9706c74564ff247,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[6]
+      value: 
+      objectReference: {fileID: 7643721040508200732, guid: 6f6090912a2f26f498246be3d8ef9f44,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[7]
+      value: 
+      objectReference: {fileID: 7869619465680881970, guid: 863b1cf64e739a04bbe1d0e1fefab0ec,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[8]
+      value: 
+      objectReference: {fileID: 716818267662981779, guid: 9439508eec270ca41a56711747b3c4e4,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[9]
+      value: 
+      objectReference: {fileID: 8446836666509235439, guid: 732310b9379813344929b5e90fe436d8,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[10]
+      value: 
+      objectReference: {fileID: 7687897908419489093, guid: b6a2731671e61294fbec785c3fe71b68,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[11]
+      value: 
+      objectReference: {fileID: 4142184803476859902, guid: cb1f21fb5dd16674eac8ffefd25df75a,
+        type: 3}
+    - target: {fileID: 82299987801251802, guid: b1605677ca1512f41a6c262e20bca197,
+        type: 3}
+      propertyPath: enemyList.Array.data[12]
+      value: 
+      objectReference: {fileID: 2000216589672981229, guid: 52294c62303149f48afe3c253b773ff4,
+        type: 3}
     - target: {fileID: 82299987801251803, guid: b1605677ca1512f41a6c262e20bca197,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3102,7 +3181,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.19}
   m_AnchorMax: {x: 0.5, y: 0.2}
-  m_AnchoredPosition: {x: -0.000002861, y: 97.1}
+  m_AnchoredPosition: {x: -0, y: 97.1}
   m_SizeDelta: {x: 237.27, y: 31.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2126028186
@@ -3148,7 +3227,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 6816038657958709470, guid: 39e09e40787a3c448a03e7ea117550f7,
+          type: 3}
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:

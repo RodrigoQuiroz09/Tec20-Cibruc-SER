@@ -15,7 +15,7 @@ public class TowerScript : MonoBehaviour
     public Text textWon;
     public Text textLost;
     public float health;
-    public int puntos;
+    public static int puntos;
 
     public GameObject gameOver;
 
@@ -43,6 +43,7 @@ public class TowerScript : MonoBehaviour
     void Update() {
         textWon.text = puntos.ToString();
         textLost.text = puntos.ToString();
+        scoreText.text = puntos.ToString();
     }
 
 
