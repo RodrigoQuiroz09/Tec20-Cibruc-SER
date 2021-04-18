@@ -12,6 +12,8 @@ public class movement : MonoBehaviour
     public GameObject blueObject; */
 
     public bool FreezeY = false;
+    private int jump = 0;
+    private float timer = 0.2f;
     private Vector3 originPos;
     public GameObject particles;
     public AudioClip deathSound;
@@ -21,7 +23,6 @@ public class movement : MonoBehaviour
         
         originPos = transform.position;
          Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>(),false);
-    
     }
 
     [SerializeField] public float speed;
@@ -36,14 +37,29 @@ public class movement : MonoBehaviour
         tempVect = tempVect.normalized * speed * Time.deltaTime;
 
         obj.transform.position += tempVect;
-
+        timer -= Time.deltaTime;
         Vector3 currentPos = transform.position;
+        
         if (FreezeY)
         {
-            currentPos.y = originPos.y;
+            if(timer<=0)
+            {
+                currentPos.y = originPos.y;
+                FreezeY = false;
+                timer = Random.Range(0.5f, 1.5f);
+            } 
         }
+        else
+        {
+            if (timer <= 0)
+            {
+                currentPos.y = originPos.y + 1;
+                FreezeY = true;
+                timer = 0.2f;
+            }
+        }
+      
         transform.position = currentPos;
-
     }
     
    IEnumerator DieTime(Collision2D col)

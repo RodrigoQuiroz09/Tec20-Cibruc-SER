@@ -14,7 +14,7 @@ public class PauseMenu : MonoBehaviour
 {
     //GameObject definition for pause menu and pause button
     public GameObject menu;
-    public GameObject pauseButton;
+    public GameObject pauseButton,shootButton;
 
     //Boolean variable for pause menu control
     public bool escButtonTrigger;
@@ -48,6 +48,7 @@ public class PauseMenu : MonoBehaviour
         escButtonTrigger = false;
         menu.SetActive(true);
         pauseButton.SetActive(false);
+        shootButton.SetActive(false);
         Time.timeScale = 0;
     }
 
@@ -55,6 +56,7 @@ public class PauseMenu : MonoBehaviour
     {
         escButtonTrigger = true;
         menu.SetActive(false);
+        shootButton.SetActive(true);
         pauseButton.SetActive(true);
         Time.timeScale = 1;
     }

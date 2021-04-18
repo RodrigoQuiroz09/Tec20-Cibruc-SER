@@ -26,7 +26,7 @@ public class PowerUpScript : MonoBehaviour
         //Modify Height and Speed variables to adjust to preference: (Based on: https://forum.unity.com/threads/how-to-make-an-object-move-up-and-down-on-a-loop.380159/)
         Vector3 position = transform.position;
         float moving = Mathf.Sin(Time.time * speed) + 1.5f;
-        transform.position = new Vector3(position.x, moving, position.z) * height;
+        transform.position = new Vector3(position.x, moving+1, position.z) * height;
         transform.Translate(-Vector3.right * disp * Time.deltaTime);
     }
     IEnumerator PowerUpDelete(Collision2D col, int bullet)

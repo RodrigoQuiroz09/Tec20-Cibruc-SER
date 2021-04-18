@@ -1255,7 +1255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900513268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.24, y: 2.77, z: -0.45117015}
+  m_LocalPosition: {x: 10.24, y: 2, z: -0.45117015}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3100,6 +3100,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7dd1b1c6428bf46b42ec1a48daea8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2145136490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 309819122176946369, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1569039863}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3793127860920775646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3286,6 +3292,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6816038657958709470, guid: 39e09e40787a3c448a03e7ea117550f7,
+        type: 3}
+      propertyPath: shootButton
+      value: 
+      objectReference: {fileID: 2145136490}
     - target: {fileID: 6816038656899053108, guid: 39e09e40787a3c448a03e7ea117550f7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
