@@ -105,6 +105,12 @@ public class MainMenuFunctionment : MonoBehaviour
         SceneManager.LoadScene("Nivel 3");
 
     }
+
+    public void level4() 
+    {
+        SceneManager.LoadScene("Nivel 4");
+
+    }
     
     /*public void exitGame() 
     {

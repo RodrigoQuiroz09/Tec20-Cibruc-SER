@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5227073320980561220}
   - component: {fileID: 6929766501324793374}
   - component: {fileID: 8919113465066860082}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SniperBulletPU
   m_TagString: SniperPu
   m_Icon: {fileID: 0}

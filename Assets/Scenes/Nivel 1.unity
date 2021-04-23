@@ -2458,6 +2458,32 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 309819122322884930, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 0cd0f65d189058443a56331efd108433,
+        type: 3}
+    - target: {fileID: 309819122322884930, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 309819122322884930, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
+        type: 3}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 309819122322884930, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 309819122322884930, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 56
+      objectReference: {fileID: 0}
     - target: {fileID: 309819122457373827, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -2509,27 +2535,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSizeBase
       value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 309819122322884930, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 0cd0f65d189058443a56331efd108433,
-        type: 3}
-    - target: {fileID: 309819122322884930, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 309819122322884930, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
-        type: 3}
-      propertyPath: m_FontData.m_LineSpacing
-      value: 0.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 309819122322884930, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 309819121674706080, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
         type: 3}
@@ -2709,22 +2714,22 @@ PrefabInstance:
     - target: {fileID: 309819122176946370, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 119.29
+      value: 282
       objectReference: {fileID: 0}
     - target: {fileID: 309819122176946370, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 77.97
+      value: 145
       objectReference: {fileID: 0}
     - target: {fileID: 309819122176946370, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 170.29
+      value: 382.3
       objectReference: {fileID: 0}
     - target: {fileID: 309819122176946370, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 122.14
+      value: 270.6
       objectReference: {fileID: 0}
     - target: {fileID: 309819121674706095, guid: f0c49f67f4f46b449ac4d474dae2e1a9,
         type: 3}
@@ -3187,6 +3192,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 6816038657958709470, guid: 39e09e40787a3c448a03e7ea117550f7,
+        type: 3}
+      propertyPath: shootButton
+      value: 
+      objectReference: {fileID: 2145136490}
     - target: {fileID: 6816038657958709410, guid: 39e09e40787a3c448a03e7ea117550f7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3292,11 +3302,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6816038657958709470, guid: 39e09e40787a3c448a03e7ea117550f7,
-        type: 3}
-      propertyPath: shootButton
-      value: 
-      objectReference: {fileID: 2145136490}
     - target: {fileID: 6816038656899053108, guid: 39e09e40787a3c448a03e7ea117550f7,
         type: 3}
       propertyPath: m_AnchoredPosition.x

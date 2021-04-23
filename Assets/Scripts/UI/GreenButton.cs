@@ -27,6 +27,10 @@ public class GreenButton : MonoBehaviour
                 title.color = new Color32(75, 75, 75, 255);
                 break;
 
+            case "orange":
+                title.color = new Color32(200, 122, 60,240) ;
+                break;
+
             default:
                 title.color = new Color32(75, 75, 75, 255);
                 break;

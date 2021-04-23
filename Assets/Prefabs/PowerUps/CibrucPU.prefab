@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5227073320980561243}
   - component: {fileID: 5227073320980561220}
   - component: {fileID: 6929766501324793374}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CibrucPU
   m_TagString: CibrucPu
   m_Icon: {fileID: 0}
@@ -99,6 +99,7 @@ MonoBehaviour:
   speed: 3
   height: 1
   disp: 1
+  powerupSound: {fileID: 0}
 --- !u!198 &5227073320980561243
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -4837,7 +4838,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
+    oldSize: {x: 10, y: 10}
     newSize: {x: 10, y: 10}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

@@ -17,6 +17,8 @@ TagManager:
   - SniperPu
   - Canon
   - GValues
+  - CibrucPu
+  - DESTROY
   layers:
   - Default
   - TransparentFX

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6934874053676992972}
   - component: {fileID: 5100470643232559269}
   - component: {fileID: 98455501785813395}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CanonBulletPU
   m_TagString: CanonPu
   m_Icon: {fileID: 0}

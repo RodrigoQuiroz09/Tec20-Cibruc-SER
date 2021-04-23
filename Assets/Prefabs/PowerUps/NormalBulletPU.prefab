@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3436593882271120394}
   - component: {fileID: 573432784971592279}
   - component: {fileID: 8343121633603757797}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NormalBulletPU
   m_TagString: NormalPu
   m_Icon: {fileID: 0}
