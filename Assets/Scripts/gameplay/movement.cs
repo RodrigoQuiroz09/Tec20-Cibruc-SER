@@ -12,8 +12,8 @@ public class movement : MonoBehaviour
     public GameObject blueObject; */
 
     public bool FreezeY = false;
-    private int jump = 0;
-    private float timer = 0.2f;
+    private int move = 0;
+    private float timer = 0.2f,jumpDistance=0.0f;
     private Vector3 originPos;
     public GameObject particles;
     public AudioClip deathSound;
@@ -39,7 +39,6 @@ public class movement : MonoBehaviour
         obj.transform.position += tempVect;
         timer -= Time.deltaTime;
         Vector3 currentPos = transform.position;
-        
         if (FreezeY)
         {
             if(timer<=0)
@@ -53,7 +52,8 @@ public class movement : MonoBehaviour
         {
             if (timer <= 0)
             {
-                currentPos.y = originPos.y + 1;
+                jumpDistance = Random.Range(1.3f, 2f);
+                currentPos.y = originPos.y + jumpDistance;
                 FreezeY = true;
                 timer = 0.2f;
             }
