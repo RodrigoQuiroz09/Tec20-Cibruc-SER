@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8251885630644701430}
   - component: {fileID: 1200803992568626967}
   m_Layer: 0
-  m_Name: TetrapakBueno
+  m_Name: Tetrapack2Bueno
   m_TagString: Ally
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -500,7 +500,7 @@ AudioSource:
   m_GameObject: {fileID: 8251885630644701431}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -2928353894295190218, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
+  OutputAudioMixerGroup: {fileID: 8013159110173709836, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 91edeb3376287b143a1de8c414d202a4, type: 3}
   m_PlayOnAwake: 1

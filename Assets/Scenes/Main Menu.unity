@@ -720,7 +720,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 30, y: 0}
+  m_AnchoredPosition: {x: 2, y: 0}
   m_SizeDelta: {x: 0, y: 112.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &112071947
@@ -1470,7 +1470,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.08000183, y: -3.2299995}
   m_SizeDelta: {x: 9.84, y: -6.4699993}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4412,7 +4412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 373, y: 177.00002}
+  m_AnchoredPosition: {x: 310, y: 177.00002}
   m_SizeDelta: {x: 135, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &768590605
@@ -5071,7 +5071,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.08000183, y: -3.2299995}
   m_SizeDelta: {x: 9.84, y: -6.4699993}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5260,6 +5260,7 @@ GameObject:
   - component: {fileID: 929363267}
   - component: {fileID: 929363268}
   - component: {fileID: 929363269}
+  - component: {fileID: 929363270}
   m_Layer: 5
   m_Name: Slider FX
   m_TagString: Untagged
@@ -5377,7 +5378,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound: {fileID: 2028114932}
-  clip: {fileID: 8300000, guid: 8cf6bd1308ada81409fd726b8eed4b1f, type: 3}
+  clip: {fileID: 8300000, guid: af2edcf9ab6bb3d4f9c24d6872385baf, type: 3}
+--- !u!114 &929363270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929363265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 929363269}
+          m_MethodName: playSoundDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 929363269}
+          m_MethodName: playSoundDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &933152092
 GameObject:
   m_ObjectHideFlags: 0
@@ -5719,7 +5763,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.08000183, y: -3.2299995}
   m_SizeDelta: {x: 9.84, y: -6.4699993}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5965,8 +6009,8 @@ RectTransform:
   m_Father: {fileID: 2046306330}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 19.4, y: 1.4000001}
   m_SizeDelta: {x: 26.54, y: 14.38}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7089,8 +7133,8 @@ RectTransform:
   m_Father: {fileID: 511247680}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 19.4, y: 1.4000001}
   m_SizeDelta: {x: 26.54, y: 14.38}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7393,6 +7437,7 @@ GameObject:
   - component: {fileID: 1382884575}
   - component: {fileID: 1382884577}
   - component: {fileID: 1382884576}
+  - component: {fileID: 1382884578}
   m_Layer: 5
   m_Name: Slider Env
   m_TagString: Untagged
@@ -7511,6 +7556,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sound: {fileID: 1156387281}
   clip: {fileID: 8300000, guid: 867db6dcc47c4da498777332c5b7dee4, type: 3}
+--- !u!114 &1382884578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382884573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1382884577}
+          m_MethodName: playSoundDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1382884577}
+          m_MethodName: playSoundDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1438606344
 GameObject:
   m_ObjectHideFlags: 0
@@ -8550,7 +8638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -35, y: 178.00002}
+  m_AnchoredPosition: {x: -140, y: 178.00002}
   m_SizeDelta: {x: 235, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1875240697
@@ -8812,7 +8900,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -541, y: 178}
+  m_AnchoredPosition: {x: -560, y: 178}
   m_SizeDelta: {x: 135, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1886869259
@@ -10076,8 +10164,8 @@ RectTransform:
   m_Father: {fileID: 1465004329}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 19.4, y: 1.4000001}
   m_SizeDelta: {x: 26.54, y: 14.38}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10270,10 +10358,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleObject: {fileID: 1271576095}
   descriptionObject: {fileID: 881524791}
-  titleSpanish: Bote de Nivel 4 Esp
-  titleEnglish: Bote de Nivel 4 Ingles
-  descriptionSpanish: "Descripci\xF3n del bote de nivel 4 ESP"
-  descriptionEnglish: "Descripci\xF3n del bote de nivel 4 ING"
+  titleSpanish: "Electrodom\xE9sticos"
+  titleEnglish: Home Appliances
+  descriptionSpanish: 'El bote naranja es para los residuos que contienen circuitos
+    y no se pueden reciclar, como:'
+  descriptionEnglish: ' The orange trashcan is for waste that contains circuits and
+    cannot be recycled, such as:'
 --- !u!114 &2145712674
 MonoBehaviour:
   m_ObjectHideFlags: 0

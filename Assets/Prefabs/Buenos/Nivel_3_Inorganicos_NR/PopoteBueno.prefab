@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4065904462008782955}
   - component: {fileID: -6379643901402109050}
   m_Layer: 8
-  m_Name: Bueno1
+  m_Name: PopoteBueno
   m_TagString: Ally
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,7 +274,7 @@ AudioSource:
   m_GameObject: {fileID: 7687897908419489093}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -2928353894295190218, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
+  OutputAudioMixerGroup: {fileID: 8013159110173709836, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 5997b18b2d6e0a545be612e4d4abd3fa, type: 3}
   m_PlayOnAwake: 1

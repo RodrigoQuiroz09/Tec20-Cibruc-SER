@@ -40,6 +40,18 @@ public class PowerUpScript : MonoBehaviour
        
     }
 
+        IEnumerator PowerUpDeleteC(Collision2D col)
+    {
+         TowerScript.puntos += 500;
+        powerupSound.Play();
+        gameObject.GetComponent<SpriteRenderer>().enabled=false;
+        gameObject.GetComponent<ParticleSystem>().Stop();
+        Destroy(col.gameObject);
+        yield return new WaitForSeconds(0.7f);   
+        Destroy(gameObject);
+       
+    }
+
     void OnCollisionEnter2D(Collision2D col) {
         if (gameObject.tag == "NormalPu")
         {
@@ -55,9 +67,7 @@ public class PowerUpScript : MonoBehaviour
         }
         else if (gameObject.tag == "CibrucPu")
         {
-            TowerScript.puntos += 500;
-            Destroy(gameObject);
-            Destroy(col.gameObject);
+            StartCoroutine(PowerUpDeleteC(col));
         }
     }
 }

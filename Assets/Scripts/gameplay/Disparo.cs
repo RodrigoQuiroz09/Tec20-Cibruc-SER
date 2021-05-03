@@ -109,7 +109,7 @@ public class Disparo : MonoBehaviour
             permitirDisparo = false;
 
             //Instanciate a new bullet object with the cannon properties:
-             audioSource.PlayOneShot(current);
+             //audioSource.PlayOneShot(current);
             GameObject disparar = Instantiate(currentBulletObject, puntaPistola.position, puntaPistola.rotation);
 
             //Shoot the bullet with a given velocity:

@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 651508222346512419}
   - component: {fileID: -2842802807808274294}
   m_Layer: 8
-  m_Name: Yellow Enemy
+  m_Name: BotaMalo
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238,7 +238,7 @@ AudioSource:
   m_GameObject: {fileID: 1594440175714447250}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -7919504733187767954, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
+  OutputAudioMixerGroup: {fileID: 8464184326824155429, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
@@ -335,7 +335,7 @@ AudioSource:
   m_GameObject: {fileID: 1594440175714447250}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -7919504733187767954, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
+  OutputAudioMixerGroup: {fileID: 8464184326824155429, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1

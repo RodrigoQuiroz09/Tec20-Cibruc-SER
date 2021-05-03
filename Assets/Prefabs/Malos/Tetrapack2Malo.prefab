@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: -7502555970355873975}
   - component: {fileID: 4300939797144716753}
   m_Layer: 0
-  m_Name: TetrapakMalo
+  m_Name: Tetrapack2Malo
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -521,7 +521,7 @@ AudioSource:
   m_GameObject: {fileID: 8446836666509235439}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -7919504733187767954, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
+  OutputAudioMixerGroup: {fileID: 8464184326824155429, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
@@ -618,7 +618,7 @@ AudioSource:
   m_GameObject: {fileID: 8446836666509235439}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -7919504733187767954, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
+  OutputAudioMixerGroup: {fileID: 8464184326824155429, guid: c2c5edc11ba7a7d42bd9b3436a28cbd8,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
