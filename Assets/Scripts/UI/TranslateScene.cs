@@ -75,7 +75,7 @@ public class TranslateScene : MonoBehaviour
             shootButton.text = "DISPARAR";
 
             //Pause Menu:
-            pauseMenuHeader.text = "MENÚ DE PAUSA";
+            //pauseMenuHeader.text = "MENÚ DE PAUSA";
             resumeButton.text = "Reanudar";
             restartButton.text = "Reiniciar Nivel";
             exitButton.text = "Salir";

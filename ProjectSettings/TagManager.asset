@@ -31,7 +31,7 @@ TagManager:
   - Background
   - Pause
   - Canon
-  - 
+  - blur
   - 
   - 
   - 
@@ -53,6 +53,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: blur
+    uniqueID: 746405321
+    locked: 0
   - name: Pause
     uniqueID: 2447933745
     locked: 0
