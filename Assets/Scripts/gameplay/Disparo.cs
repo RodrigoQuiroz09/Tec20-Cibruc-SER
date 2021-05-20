@@ -15,17 +15,11 @@ public class Disparo : MonoBehaviour
     public AudioClip snipper;
     public AudioClip cannon;
     private AudioClip current;
-    public AudioSource audioSource;
     public float rateOfFire;
     private bool permitirDisparo;
     public GameObject manager;
-    public int sum = 0;
     private Vector2 direccionBala;
     private float angulo;
-
-    AudioSource source;
-
-    int counterForDemo = 0;
 
     void Awake()
     {
@@ -46,12 +40,15 @@ public class Disparo : MonoBehaviour
 
     void Update()
     {
-        Touch touch = Input.GetTouch(0);
-        if (touch.position.x > Screen.width / 2) {
-            direccionBala = Camera.main.ScreenToWorldPoint(touch.position) - transform.position;
-            angulo = Mathf.Atan2(direccionBala.y, direccionBala.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0f, 0f, angulo - 90f + 70f);
+        if(Input.touchCount>0){
+            Touch touch = Input.GetTouch(0);
+            if (touch.position.x > Screen.width / 2) {
+                direccionBala = Camera.main.ScreenToWorldPoint(touch.position) - transform.position;
+                angulo = Mathf.Atan2(direccionBala.y, direccionBala.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.Euler(0f, 0f, angulo - 90f + 70f);
+            }
         }
+       
         
 
     }
@@ -72,7 +69,6 @@ public class Disparo : MonoBehaviour
                 current = normal;
                 rateOfFire = 0.3f;
                 //GetComponent<AudioSource>().clip = source.clip;
-                Debug.Log("Entra 0");
                 break;
 
             case 1:
@@ -81,16 +77,13 @@ public class Disparo : MonoBehaviour
                 bulletSpeed = 20f;
                 current = snipper;
                 rateOfFire = 0.6f;
-                Debug.Log("Entra 1");
                 break;
-
             case 2:
                 //CannonBall:
                 currentBulletObject = balaCannon;
                 current = cannon;
                 bulletSpeed = 5f;
                 rateOfFire = 1.0f;
-                Debug.Log("Entra 2");
                 break;
 
             default:
@@ -98,7 +91,6 @@ public class Disparo : MonoBehaviour
                 currentBulletObject = balaDefault;
                 bulletSpeed = 10f;
                 rateOfFire = 0.3f;
-                Debug.Log("Entra default");
                 break;
 
         }

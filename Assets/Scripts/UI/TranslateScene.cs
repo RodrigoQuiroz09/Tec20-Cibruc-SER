@@ -5,9 +5,7 @@ using UnityEngine.UI;
 
 public class TranslateScene : MonoBehaviour
 {
-
     public int language;
-
     //Game texts to translate:
     //UI:
     public Text shootButton;
@@ -22,23 +20,17 @@ public class TranslateScene : MonoBehaviour
     public Text gameOverHeader;
     public Text returnToMenuOver;
     public Text gameOverScore;
-
     //Game Won:
     public Text gameWonHeader;
     public Text gameWonScore;
     public Text gameWonExit;
 
-    
     void Start()
     {
-
         GameObject global = GameObject.Find("GlobalValues");
         GlobalValues globalScript = global.GetComponent<GlobalValues>();
         language = globalScript.language;
-
         translate();
-
-        Debug.Log("Si traduce a: " + language);
 
     }
 

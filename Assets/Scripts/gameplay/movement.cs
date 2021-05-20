@@ -12,7 +12,7 @@ public class movement : MonoBehaviour
     public GameObject blueObject; */
 
     public bool FreezeY = false;
-    private int move = 0;
+ 
     private float timer = 0.2f,jumpDistance=0.0f;
     private Vector3 originPos;
     public GameObject particles;

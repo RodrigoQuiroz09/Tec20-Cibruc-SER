@@ -15,6 +15,7 @@ public class TowerScript : MonoBehaviour
     public Text textWon;
     public Text textLost;
     public float health;
+
     public static int puntos;
 
     public GameObject gameOver;

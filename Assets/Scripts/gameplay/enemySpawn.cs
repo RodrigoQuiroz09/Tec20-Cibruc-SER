@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class enemySpawn : MonoBehaviour
 {
-    int totalEnemigos = 0;
-
     public Transform enemyPos;
     public int numberEnemies;
     public float rangeFrom;

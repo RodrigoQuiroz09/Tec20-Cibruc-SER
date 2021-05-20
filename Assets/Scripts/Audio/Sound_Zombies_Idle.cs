@@ -23,7 +23,6 @@ public class Sound_Zombies_Idle : MonoBehaviour
     void soundLoop(){
       audioSource.clip = sounds[Random.Range(0,sounds.Length)];
       audioSource.PlayDelayed(1);
-      Debug.Log(audioSource.clip.ToString());
     }
 
 
