@@ -75,6 +75,7 @@ public class TowerScript : MonoBehaviour
                 audioSource.PlayOneShot(gameOverSound);
                 audioMixer.SetFloat("Music_Param",0f);
                 audioMixer.SetFloat("Env_Param",0f);
+                referenceCameraScript.shakeDuration = 0f;
             }
         }
     }
