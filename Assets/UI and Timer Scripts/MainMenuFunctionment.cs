@@ -21,8 +21,12 @@ public class MainMenuFunctionment : MonoBehaviour
     public GameObject nivelesMenu;
     public GameObject settingsMenu;
     public GameObject credits;
+    public GameObject informationL1;
+    public GameObject informationL2;
+    public GameObject informationL3;
+    public GameObject informationL4;
 
-    
+
     //Boolean variable for controls' pannel apperance
     public bool controlsApperance;
 
@@ -49,6 +53,7 @@ public class MainMenuFunctionment : MonoBehaviour
         mainMenuButtons.SetActive(false);
         optionsMenu.SetActive(true); //Tutorial
         settingsMenu.SetActive(false);
+        informationL1.SetActive(false);
         controlsApperance = true; 
     }
 
@@ -57,6 +62,10 @@ public class MainMenuFunctionment : MonoBehaviour
         nivelesMenu.SetActive(false);
         optionsMenu.SetActive(false);
         settingsMenu.SetActive(false);
+        informationL1.SetActive(false);
+        informationL2.SetActive(false);
+        informationL3.SetActive(false);
+        informationL4.SetActive(false);
         mainMenuButtons.SetActive(true);
         credits.SetActive(false);
         controlsApperance = false;
@@ -69,12 +78,62 @@ public class MainMenuFunctionment : MonoBehaviour
         settingsMenu.SetActive(true);
         mainMenuButtons.SetActive(false);
         credits.SetActive(false);
+        informationL1.SetActive(false);
         controlsApperance = true;
     }
 
     public void OpenCredits() {
 
         credits.SetActive(true);
+        nivelesMenu.SetActive(false);
+        optionsMenu.SetActive(false);
+        settingsMenu.SetActive(false);
+        mainMenuButtons.SetActive(false);
+        informationL1.SetActive(false);
+        controlsApperance = true;
+
+    }
+    public void openinformationL1()
+    {
+
+        informationL1.SetActive(true);
+        credits.SetActive(false);
+        nivelesMenu.SetActive(false);
+        optionsMenu.SetActive(false);
+        settingsMenu.SetActive(false);
+        mainMenuButtons.SetActive(false);
+        controlsApperance = true;
+
+    }
+    public void openinformationL2()
+    {
+
+        informationL2.SetActive(true);
+        credits.SetActive(false);
+        nivelesMenu.SetActive(false);
+        optionsMenu.SetActive(false);
+        settingsMenu.SetActive(false);
+        mainMenuButtons.SetActive(false);
+        controlsApperance = true;
+
+    }
+    public void openinformationL3()
+    {
+
+        informationL3.SetActive(true);
+        credits.SetActive(false);
+        nivelesMenu.SetActive(false);
+        optionsMenu.SetActive(false);
+        settingsMenu.SetActive(false);
+        mainMenuButtons.SetActive(false);
+        controlsApperance = true;
+
+    }
+    public void openinformationL4()
+    {
+
+        informationL4.SetActive(true);
+        credits.SetActive(false);
         nivelesMenu.SetActive(false);
         optionsMenu.SetActive(false);
         settingsMenu.SetActive(false);
@@ -86,7 +145,11 @@ public class MainMenuFunctionment : MonoBehaviour
     public void jugar() 
     {
         nivelesMenu.SetActive(true);
+        informationL1.SetActive(false);
         mainMenuButtons.SetActive(false);
+        informationL2.SetActive(false);
+        informationL3.SetActive(false);
+        informationL4.SetActive(false);
         controlsApperance = false;
     }
 
